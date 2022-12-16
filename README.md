@@ -21,7 +21,7 @@
 * fixtures -> All test data go here under the respective feature folders.
 * support -> All support files like cypress commands, pageObjects etc go here under the respective feature folder.
 
-# Test
+# Test Execution
 * To run the test locally execute this command - `npm test`
 * The above command will run the tests and also generate the allure report file. Allure report file will get opened automatically after test execution. 
 
