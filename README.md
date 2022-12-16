@@ -3,9 +3,9 @@
 
 # Prerequisites
 1. Install dependencies for the allure reporting as below
- *  To install allure commandline run this command- npm install allure-commandline --save-dev
- *  To install allure plugin run this command- npm install @shelex/cypress-allure-plugin --save-dev
- *  To Install Cucumber plugin run this command- npm install cypress-cucumber-preprocessor --save-dev
+ *  To install allure commandline run this command- `npm install allure-commandline --save-dev`
+ *  To install allure plugin run this command- `npm install @shelex/cypress-allure-plugin --save-dev`
+ *  To Install Cucumber plugin run this command- `npm install cypress-cucumber-preprocessor --save-dev`
 
 # Installation
 1. Installation process, including dependancies. 
@@ -22,7 +22,7 @@
 * support -> All support files like cypress commands, pageObjects etc go here under the respective feature folder.
 
 # Test
-* To run the test locally execute this command - npm test
+* To run the test locally execute this command - `npm test`
 * The above command will run the tests and also generate the allure report file. Allure report file will get opened automatically after test execution. 
 
 # GitHub Repository
