@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Dec 16 12:23:31 AEDT 2022","Fri Dec 16 12:23:33 AEDT 2022","1598","","Perform Add, Fetch, Update and Delete Actions on petstore.swagger.io website","","","","Add a new PetDetails in PetStore using POST method (example #1)",""
+"passed","Fri Dec 16 12:23:34 AEDT 2022","Fri Dec 16 12:23:34 AEDT 2022","511","","Perform Add, Fetch, Update and Delete Actions on petstore.swagger.io website","","","","Delete the PetDetails in PetStore using DELETE method (example #1)",""
+"passed","Fri Dec 16 12:23:33 AEDT 2022","Fri Dec 16 12:23:34 AEDT 2022","541","","Perform Add, Fetch, Update and Delete Actions on petstore.swagger.io website","","","","Update the Existing PetDetails in PetStore using UPDATE method (example #1)",""
+"passed","Fri Dec 16 12:23:33 AEDT 2022","Fri Dec 16 12:23:33 AEDT 2022","527","","Perform Add, Fetch, Update and Delete Actions on petstore.swagger.io website","","","","Fetch the PetDetails from the PetStore using GET method (example #1)",""

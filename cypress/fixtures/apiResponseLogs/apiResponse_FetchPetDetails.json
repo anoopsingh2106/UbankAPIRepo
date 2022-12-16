@@ -1,0 +1,18 @@
+{
+  "id": 25,
+  "category": {
+    "id": 25,
+    "name": "Pet20Category"
+  },
+  "name": "UpdatedPetName25",
+  "photoUrls": [
+    "Pet20PhotoUrl"
+  ],
+  "tags": [
+    {
+      "id": 20,
+      "name": "Pet20Tag"
+    }
+  ],
+  "status": "available"
+}

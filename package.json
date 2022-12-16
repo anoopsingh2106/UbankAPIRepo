@@ -1,0 +1,25 @@
+{
+  "name": "apiautomation",
+  "version": "1.0.0",
+  "description": "API Automation to Add, Fetch, Update and Delete the Pet Details on petstore.swagger.io",
+  "main": "index.js",
+  "scripts": {
+    "cyexecute": "cypress run --env allure=true --headed",
+    "generateallurereport": "allure generate allure-results --clean  -o allure-report && npm run launchallureReport",
+    "test": "npm run cyexecute && npm run posttest",
+    "posttest": "npm run generateallurereport",
+    "launchallureReport": "allure serve"
+  },
+  "author": "Anoop",
+  "license": "ISC",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.34.0",
+    "allure-commandline": "^2.13.8",
+    "cypress": "^8.5.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/integration/bddfeatures",
+    "nonGlobalStepDefinitions": false
+  }
+}

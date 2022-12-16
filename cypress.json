@@ -1,0 +1,13 @@
+{
+    "baseUrl": "https://petstore.swagger.io",
+    "env":{ 
+        "petAddEndpoint": "/v2/pet/",
+        "petGetEndpoint": "/v2/pet/",
+        "petUpdateEndpoint": "/v2/pet/",
+        "petDeleteEndpoint": "/v2/pet/",
+        "api-key-value": "special-key"
+ }, 
+    "testFiles": "**/*.feature",
+    "requestTimeout": 30000,
+    "responseTimeout": 50000
+}

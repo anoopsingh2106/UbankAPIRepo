@@ -1,0 +1,39 @@
+{
+    "addPetDetails": {
+      "id": 20,
+      "category": {
+        "id": 10,
+        "name": "Pet20Category"
+      },
+      "name": "Pet20",
+      "photoUrls": [
+        "Pet20PhotoUrl"
+      ],
+      "tags": [
+        {
+          "id": 20,
+          "name": "Pet20Tag"
+        }
+      ],
+      "status": "available"
+    },
+    
+    "updatePetDetails":{
+      "id": 26,
+      "category": {
+        "id": 26,
+        "name": "Pet20Category"
+      },
+      "name": "Pet20",
+      "photoUrls": [
+        "Pet20PhotoUrl"
+      ],
+      "tags": [
+        {
+          "id": 20,
+          "name": "Pet20Tag"
+        }
+      ],
+      "status": "available"
+    }
+  }
